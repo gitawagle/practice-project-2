@@ -1,7 +1,7 @@
 from flask import Flask, jsonify, render_template
 import random
 
-app = Flask(__name__)
+app = Flask(__random_number__)
 
 @app.route('/')
 def home():
